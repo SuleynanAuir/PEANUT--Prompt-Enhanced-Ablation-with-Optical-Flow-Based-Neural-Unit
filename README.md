@@ -2,22 +2,46 @@
     PEANUT: Prompt-Enhanced Ablation with Optical Flow-Based Neural Unit for Spatio-Temporal Consistency & VSR++ Clarity from IMG2Video Field 💫 
 </h1>
 
-<div style="text-align: center; margin: 30px 0; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-  <div style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 16px; border-radius: 20px; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4); font-weight: 500;">
-    <span style="margin-right: 8px; font-size: 1.1em;">🐍</span>
-    <span>Python</span>
-    <span style="margin-left: 8px; background-color: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 12px; font-weight: 600;">v3.8</span>
-  </div>
-  <div style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 8px 16px; border-radius: 20px; box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4); font-weight: 500;">
-    <span style="margin-right: 8px; font-size: 1.1em;">🔥</span>
-    <span>PyTorch</span>
-    <span style="margin-left: 8px; background-color: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 12px; font-weight: 600;">v2.6.0+cu124</span>
-  </div>
-  <div style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 8px 16px; border-radius: 20px; box-shadow: 0 4px 12px rgba(79, 172, 254, 0.4); font-weight: 500;">
-    <span style="margin-right: 8px; font-size: 1.1em;">⚡</span>
-    <span>CUDA</span>
-    <span style="margin-left: 8px; background-color: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 12px; font-weight: 600;">v12.4</span>
-  </div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <span style="
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 4px 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  ">
+    🐍 Python <span style="margin-left:6px; font-weight:600; background-color:#e0e0e0; padding:1px 6px; border-radius:8px;">v3.8</span>
+  </span>
+  <span style="
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 4px 10px;
+    background-color: #ffe4e1;
+    color: #d6336c;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  ">
+    🔥 PyTorch <span style="margin-left:6px; font-weight:600; background-color:#ffd6e0; padding:1px 6px; border-radius:8px;">v2.6.0+cu124</span>
+  </span>
+  <span style="
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 4px 10px;
+    background-color: #e0f7ff;
+    color: #0077cc;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  ">
+    ⚡ CUDA <span style="margin-left:6px; font-weight:600; background-color:#b3ecff; padding:1px 6px; border-radius:8px;">v12.4</span>
+  </span>
 </div>
 
 <div style="text-align: center; margin: 15px 0; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
