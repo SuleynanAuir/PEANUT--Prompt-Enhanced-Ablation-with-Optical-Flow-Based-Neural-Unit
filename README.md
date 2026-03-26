@@ -2,64 +2,15 @@
     PEANUT: Prompt-Enhanced Ablation with Optical Flow-Based Neural Unit for Spatio-Temporal Consistency & VSR++ Clarity from IMG2Video Field 💫 
 </h1>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <span style="
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.9em;
-    font-weight: 500;
-    padding: 4px 10px;
-    background-color: #f0f0f0;
-    color: #333;
-    border-radius: 12px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  ">
-    🐍 Python <span style="margin-left:6px; font-weight:600; background-color:#e0e0e0; padding:1px 6px; border-radius:8px;">v3.8</span>
-  </span>
-  <span style="
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.9em;
-    font-weight: 500;
-    padding: 4px 10px;
-    background-color: #ffe4e1;
-    color: #d6336c;
-    border-radius: 12px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  ">
-    🔥 PyTorch <span style="margin-left:6px; font-weight:600; background-color:#ffd6e0; padding:1px 6px; border-radius:8px;">v2.6.0+cu124</span>
-  </span>
-  <span style="
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.9em;
-    font-weight: 500;
-    padding: 4px 10px;
-    background-color: #e0f7ff;
-    color: #0077cc;
-    border-radius: 12px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-  ">
-    ⚡ CUDA <span style="margin-left:6px; font-weight:600; background-color:#b3ecff; padding:1px 6px; border-radius:8px;">v12.4</span>
-  </span>
-</div>
-
-<div style="text-align: center; margin: 15px 0; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-  <div style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; padding: 6px 14px; border-radius: 18px; box-shadow: 0 3px 10px rgba(250, 112, 154, 0.35); font-weight: 500; font-size: 0.9em;">
-    <span style="margin-right: 6px;">🎵</span>
-    <span>TorchAudio</span>
-    <span style="margin-left: 6px; background-color: rgba(255,255,255,0.25); padding: 1px 6px; border-radius: 10px; font-weight: 600;">v2.6.0+cu124</span>
-  </div>
-  <div style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; padding: 6px 14px; border-radius: 18px; box-shadow: 0 3px 10px rgba(168, 237, 234, 0.35); font-weight: 500; font-size: 0.9em;">
-    <span style="margin-right: 6px;">🖼️</span>
-    <span>TorchVision</span>
-    <span style="margin-left: 6px; background-color: rgba(255,255,255,0.4); padding: 1px 6px; border-radius: 10px; font-weight: 600;">v0.21.0+cu124</span>
-  </div>
-  <div style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); color: #333; padding: 6px 14px; border-radius: 18px; box-shadow: 0 3px 10px rgba(252, 182, 159, 0.35); font-weight: 500; font-size: 0.9em;">
-    <span style="margin-right: 6px;">🎬</span>
-    <span>imageio-ffmpeg</span>
-    <span style="margin-left: 6px; background-color: rgba(255,255,255,0.4); padding: 1px 6px; border-radius: 10px; font-weight: 600;">v0.6.0</span>
-  </div>
+<div align="center">
+  <!-- 基础环境 -->
+  <a href="#"><img src="https://img.shields.io/badge/🐍%20Python-v3.8-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/🔥%20PyTorch-v2.6.0%2Bcu124-EA4C89?style=for-the-badge&logo=pytorch&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/⚡%20CUDA-v12.4-FB8C00?style=for-the-badge&logo=nvidia&logoColor=white" /></a>
+  <!-- 音视频 / CV 库 -->
+  <a href="#"><img src="https://img.shields.io/badge/🎵%20TorchAudio-v2.6.0%2Bcu124-FA709A?style=for-the-badge" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/🖼️%20TorchVision-v0.21.0%2Bcu124-A8EDEA?style=for-the-badge" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/🎬%20imageio--ffmpeg-v0.6.0-FFECD2?style=for-the-badge" /></a>
 </div>
 
 <!-- ![](assert\readme\preview_mask.png "P-MASk Prompt Guided Mask Generation") -->
