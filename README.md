@@ -2,6 +2,8 @@
     PEANUT: Prompt-Enhanced Ablation with Optical Flow-Based Neural Unit for Spatio-Temporal Consistency & VSR++ Clarity from IMG2Video Field 💫 
 </h1>
 
+<p align="center"><a href="https://suleynanauir.github.io/PEANUT--Prompt-Enhanced-Ablation-with-Optical-Flow-Based-Neural-Unit/"><strong>Project Page ↗</strong></a> · <a href="https://suleynanauir.github.io/PEANUT--Prompt-Enhanced-Ablation-with-Optical-Flow-Based-Neural-Unit/assets/peanut-paper.pdf">Paper (PDF)</a></p>
+
 <div align="center">
   <!-- 基础环境 -->
   <a href="#"><img src="https://img.shields.io/badge/🐍%20Python-v3.8-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
