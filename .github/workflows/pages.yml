@@ -24,12 +24,18 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Check out project page only
-        uses: actions/checkout@v4
-        with:
-          sparse-checkout: docs
-          submodules: false
-          persist-credentials: false
+      - name: Fetch project page at the triggering commit
+        env:
+          PAGE_REPOSITORY: ${{ github.repository }}
+          PAGE_COMMIT: ${{ github.sha }}
+        run: |
+          git init
+          git remote add origin "https://github.com/${PAGE_REPOSITORY}.git"
+          git sparse-checkout set --no-cone '/docs/'
+          git fetch --no-recurse-submodules --filter=blob:none --depth=1 origin "$PAGE_COMMIT"
+          git -c submodule.recurse=false checkout --detach FETCH_HEAD
+      - name: Verify static entrypoint
+        run: test -s docs/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static project page
