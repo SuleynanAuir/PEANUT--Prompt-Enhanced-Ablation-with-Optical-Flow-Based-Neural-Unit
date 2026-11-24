@@ -30,11 +30,11 @@
     </li>
     <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
         <span style="color: #4CAF50; font-size: 1.2em;">🏫</span> 
-        <strong>Affiliation:</strong> Beijing Normal University - Hong Kong Baptist University (BNBU)
+        <strong>Affiliation:</strong> Beijing Normal- Hong Kong Baptist University (BNBU)
     </li>
     <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
         <span style="color: #4CAF50; font-size: 1.2em;">📧</span> 
-        <strong>Email:</strong> <code>t330034027@mail.uic.edu.cn</code>
+        <strong>Email:</strong> <code>t330034027@mail.uic.edu.cn, laybaeknim@gmail.com</code>
     </li>
 </ul>
 
